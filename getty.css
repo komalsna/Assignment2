@@ -1,0 +1,169 @@
+/* *
+{
+    margin: 0px 0px;
+    padding: 0px 0px ;
+    box-sizing: border-box;
+   } */
+
+body{
+    font-family: Lato,sans-serif;;
+}
+.black{
+    border: solid 2px rgb(19, 11, 11);
+}
+
+ 
+.row-height{
+    height: 50vh;
+}
+.bg-row-color
+{
+    background-color: #E4F0D3;
+}
+.font-size{
+    font-size: 3.2rem;
+}
+.input-width{
+    width: 50vw;
+    padding: 1.4rem;
+    border-radius: 10px;
+}
+.inputleft {
+    padding-left:30px;
+}
+
+.iconnameleft {
+    position: relative;
+    left:15px;
+    top: 1px;
+    width: 0;
+}
+.bg-color{
+background-color: #6f43d6;
+}
+
+.footer-height{
+    height: 55vh;
+}
+.logo-size{
+    font-size: 5rem;
+  color:white;
+}
+
+
+ a{
+    text-decoration: none;
+    
+ }
+ a:visited {
+    color: black;
+  }
+  a:hover {
+    color: blue;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+ .padding-left{
+    padding-left: 20px;
+
+ }
+ .margin-left{
+    margin-left: 2rem;
+  
+ }
+ .margin-right{
+    margin-right: 0.5rem;
+  
+ }
+ .margin-top{
+    margin-top: 2rem;
+  
+ }
+ .padding-right{
+    padding-right: 8px;
+
+ }
+ .font-size{
+    font-size: 2.5rem;
+ }
+ .font-bold{
+    font-weight: bolder;
+ }
+ .btn
+{
+    padding:12px 25px 12px 25px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 1rem;
+
+}
+.btn:hover
+{
+    background-color: black;
+    color: white;
+}
+.display-inline
+{
+    display: inline-block;
+    
+}
+.word-wrap
+{
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.positions-wrap
+{
+    position: absolute;
+    top: 2.3rem;
+}
+.positions-icon 
+{
+    position: relative;
+    top: .4rem;
+    right: .3rem;
+    
+}
+.wrapper{
+/* border: solid 5px red; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 1rem;
+}
+img{
+width: 350px;
+border-radius: 10px;
+}
+.wrapper-images{
+    margin-top: 1rem;
+    display: flex;
+   justify-content:space-around;
+       
+}
+.wrapper-footer
+{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 2rem;
+}
+
+.wrapper-footer a
+{
+    color: white;
+}
+.wrapper-footer a:hover 
+{
+    text-decoration: underline;
+}
